@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@media (max-width: 991px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  @media (max-width: 767px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+
+
+body {
+    background-color: black;
+}
+
+.retangulo-1 {
+
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 15px;
+    right: 0; 
+    
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  ul li a {
+    margin-right: 10px;
+    color: inherit;
+    text-decoration: none;
+     
+  }
+
+  .container-logo-vagalume {
+    position: fixed;
+  }
+
+  .logo-vagalume {
+    height: auto;
+    width: 30px;
+    top: 0;
+    padding: 10px;
+  }
+
+.retangulo-2 {
+
+    background-color: rgb(153, 31, 31);
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    background-image: url('imagens/paisagem-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo-the-last-of-us{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-the-last {
+    width: 150px;
+    height: auto;
+    filter: invert(100%);
+    z-index: -1;
+}
+
+.h1-1 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  right: 10px;
+  top: 150px;
+  z-index: -1;
+}
+
+.p-eliie {
+  color: white;
+  position: absolute;
+  max-width: 500vh;
+  font-size: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    top: 180px;
+    right: -10px;
+    left: 0;
+}
+
+
+
+
+.retangulo-3 {
+
+    background-color: rgb(153, 31, 31);
+    position: absolute;
+    top: 300px;
+    left: 0%;
+    height: 100px;
+    width: 100%;
+    z-index: -2;
+    background-image: url('imagens/paisagem-2.jpg'); 
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.ellie-im {
+z-index:-2;
+display: flex;
+position: absolute;
+height: auto;
+width: 210px;
+right: 0;
+left: 0;
+top: 248px;
+
+
+}
+
+
+.h1-2 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  right: 10px;
+  top: 400px;
+  z-index: -1;
+}
+
+.p-joel {
+  color: white;
+  position: absolute;
+  max-width: 500vh;
+  font-size: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    top: 430px;
+    right: -10px;
+    left: 0;
+}
+
+
+
+
+.joel-im {
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: auto;
+  right: 0;
+  left: 0;
+  top: 500px;
+  z-index: 1;
+}
+
+
+.retangulo-4 {
+
+  background-color: rgb(153, 31, 31);
+    position: absolute;
+    top: 550px;
+    left: 0%;
+    height: 100px;
+    width: 100%;
+    z-index: -2;
+    background-image: url('imagens/paisagem-3.jpg'); 
+    background-size: cover;
+    background-position: center;
+
+  
+}
+
+.audio {
+  position: absolute;
+  display: flex;
+  top: 550px;
+  height: 100px;
+  width: auto;
+}
+
+
